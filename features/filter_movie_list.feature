@@ -46,4 +46,9 @@ Scenario: no ratings selected
   # see assignment
 
 Scenario: all ratings selected
-  # see assignment
+  #When I uncheck the following ratings: PG, R, PG-13, G
+  #When I check the following ratings: R
+  #When I press "ratings_submit"
+  #Then I should see "The Terminator"
+  #Then I should not see "Aladdin"
+  
